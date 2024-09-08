@@ -8,10 +8,10 @@
     background-color: white;
     text-align: center;
 }
-
+/*
 #bannerImg{
     image-rendering: auto;
-}
+}*/
 
 #greetingID{
     color: blue;
@@ -26,6 +26,10 @@
 
 }
 
+.myHeader{
+    background-image: url("/images/foodBanner.jpg");
+}
+
 #myFooter {
     color: blue;
     background-color: white;
@@ -37,7 +41,7 @@
 
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 50%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
