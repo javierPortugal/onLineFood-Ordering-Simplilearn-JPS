@@ -9,20 +9,76 @@
 </head>
 <body>
     <header>
-        <h1 id="headerH1">You are in the Simplilearn Food On Line Ordering page</h1>
+        <img id = "bannerImg" src="/images/foodBanner.jpg" alt="foodBanner-image" >
+        <h1 id="headerH1">Simplilearn Food On Line Ordering page</h1>
+        
+        <h2 id="greetingID">Hello Everyone...is it your first time? please register...if not just Loggin !!</h2>
+        <p class="paraIni">You are in the Simplilearn Food On line Ordering page, the page is used as a common point of food ordering for all the metropolitan hotels areas, so please feel free to register and order your favorite food! we'll certainly get it to your room´s door as fresh as just gotten from the kitchen!!!  </p>
+
 
     </header>
 
-    <div class="registration">
+    <div class="container">
 
-        <h1 id="myId">Hello Everyone</h1>
-        <p class="myPara">HTML stands for Hyper Text Markup Language.</p>
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname"><strong>First Name</strong></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Enter First Name...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname"><strong>Last Name</strong></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Enter Last Name...">
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname"><strong>Enter Password</strong></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lpassword" name="password" placeholder="Enter Registration Password...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country"><strong>Country</strong></label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="   "></option>
+                        <option value="canada">Canada</option>
+                        <option value="italy">Italy</option>
+                        <option value="usa">USA</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="brasil">Brasil</option>
+                    </select>
+                </div>
+            </div>
+          
+            <br/>
+            <div class="row">
+                <input type="submit" value="Submit to Register">
+            </div><br>
+        </form>
+        <br/>
+        <br/>
     </div>
+    <br/>
+    <br/>
+    <div class="logginButtom">
+        <input type="submit" value="  Click to Loggin    ">
+    </div><br>
 
     <footer>
            
-        <p id="myPara">Contact Number: 9876543210 <br/>
+        <p id="myFooter">Contact Number: 9876543210 <br/>
             <a href="mailto:abc.corp@gmail.com">simplilearnFoodOrdering@gmail.com</a>
         </p>
    
